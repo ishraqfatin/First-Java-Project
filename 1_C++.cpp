@@ -9,8 +9,11 @@ private:
 	int houseNo, roadNo,  zipCode;
 	string thana, street, district;
 
+	friend int getZipCode(Address);
+
 public: // add necessary methods including setters and getters,
 	// AND/OR declare friends, so that the given main() works
+	
 	void setAddress()
 	{
 		cout << "Enter house no. : ";
@@ -29,15 +32,17 @@ public: // add necessary methods including setters and getters,
 	}
 	void showAddress()
 	{
-		cout << "house no. : " << houseNo;
-		cout << ", road no. : " << roadNo;
-		cout << ", street no. : ";
+		cout << "House no. : " << houseNo;
+		cout << ", Road no. : " << roadNo;
+		cout << ", Street no. : ";
 		street;
-		cout << ", zipCode: " << zipCode;
-		cout << ", thana: " << thana;
-		cout << ", district: " << district;
+		cout << ", ZipCode: " << zipCode;
+		cout << ", Thana: " << thana;
+		cout << ", District: " << district;
 	}
 };
+
+
 class Employee
 {
 	// MUST have employeeID, name, department and the following as private fields
@@ -46,9 +51,19 @@ private:
 	string empName, department;
 
 	Address empAddress;
+	
 
 public: // add necessary methods including setters and getters,
 	// AND/OR declare friends, so that the given main() works
+	Employee(int id, string name, string dep){
+		empId=id;
+		empName=name;
+		department=dep;
+		cout<<"Enter Address of Employee: \n";
+		empAddress.setAddress();
+	}
+	Employee(){
+	}
 	void setEmpInfo()
 	{
 		cout << "Enter employee ID: ";
@@ -57,31 +72,42 @@ public: // add necessary methods including setters and getters,
 		cout << "Enter employee Name: ";
 		getline(cin, empName);
 		cout << "Enter employee Department: ";
-		cin >> department;
+		getline(cin, department);
+
+		empAddress.setAddress();
 	}
 	void showEmpInfo()
 	{
-		cout << "Id=" << empId << ", Name=" << empName << ", Salary=" << department << endl;
+		cout << "Id=" << empId << ", Name=" << empName << ", Department=" << department << endl;
+		empAddress.showAddress();
+	}
+
+	int zip(){	//passes the empAddress object to the friend function
+		return getZipCode(empAddress);
 	}
 };
+
+int getZipCode(Address d){	//friend function
+	return d.zipCode;
+}
+
+
 int main()
 {
-	Employee e1, e2;
-	Address empAddress;
-	// parameterized constructor also ask for address details
+	Employee e1, e2(4161, "S K Dey", "CSE");	// parameterized constructor also ask for address details
 	cout << "Give input for employee 1: " << endl;
-	e1.setEmpInfo();	// Should ask employeeID, name, department.
-	empAddress.setAddress();	// Then ask address related information.
-	cout << "Give input for employee 2: " << endl;
-	e2.setEmpInfo();	// Should ask employeeID, name, department.
-	empAddress.setAddress();	// Then ask address related information.
+	// Should ask employeeID, name, department.
+	// Then ask address related information.
+	e1.setEmpInfo();	
 	cout << "Complete information of the employees are: " << endl;
 	e1.showEmpInfo();
-	empAddress.showAddress();
-	// cout << "The employee e1 ";
-	// if (empAddress.zipCode == 1229)
-	// 	cout << "lives in Bashundhara R/A." << endl;
-	// else
-	// 	cout << "does NOT lives in Bashundhara R/A." << endl; // comparing zipCode field
+	cout<<endl;
+	e2.showEmpInfo();
+	
+	cout << "The employee e1 ";
+	if ( e1.zip() == 1229)
+		cout << "lives in Bashundhara R/A." << endl;
+	else
+		cout << "does NOT lives in Bashundhara R/A." << endl; // comparing zipCode field
 	return 0;
 }
