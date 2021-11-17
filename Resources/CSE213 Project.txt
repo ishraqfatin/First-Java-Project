@@ -1,0 +1,16 @@
+Fatin Ishraq Ahammed2:09 PM
+Simulating operations of a Catering Service serving different airlines at an airport:
+
+1. CEO/MD
+1. Airlines Hospitality Manager
+2. Chef
+3. Procurement Manager
+4. Supplier
+5  Transport Manager
+
+4. Security Staff
+
+
+Filename for midterm: CSE213_Midterm_3_1911116.pdf
+
+Q1/ 1goal per user
