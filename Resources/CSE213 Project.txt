@@ -14,3 +14,9 @@ Simulating operations of a Catering Service serving different airlines at an air
 Filename for midterm: CSE213_Midterm_3_1911116.pdf
 
 Q1/ 1goal per user
+
+- Experience in testing websites, web applications (and mobile apps)
+- Know-how in planning and controlling test activities as well as in error management
+- Deep knowledge in React and strong expertise in Webpack, SCSS and JS
+- A plus would be experience in PHP and HTML
+- Driven by impact. You are eager to create customer value

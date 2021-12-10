@@ -1,0 +1,45 @@
+<html><head>
+  <SCRIPT src="./web-files/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : '2021-11-15 -- FXML Basics (Sec-3).jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iMjAyMS0xMS0xNSAtLSBGWE1MIEJhc2ljcyAoU2VjLTMpLmpubHAiPg0KICA8aW5mb3JtYXRpb24+DQogICAgPHRpdGxlPjIwMjEtMTEtMTUgLS0gRlhNTCBCYXNpY3MgKFNlYy0zKTwvdGl0bGU+DQogICAgPHZlbmRvcj5TdWJyYXRhIEt1bWFyIERleTwvdmVuZG9yPg0KICAgIDxkZXNjcmlwdGlvbj5udWxsPC9kZXNjcmlwdGlvbj4NCiAgICA8b2ZmbGluZS1hbGxvd2VkLz4NCiAgPC9pbmZvcm1hdGlvbj4NCiAgPHJlc291cmNlcz4NCiAgICA8ajJzZSB2ZXJzaW9uPSIxLjYrIiBocmVmPSJodHRwOi8vamF2YS5zdW4uY29tL3Byb2R1Y3RzL2F1dG9kbC9qMnNlIi8+DQogICAgPGphciBocmVmPSIyMDIxLTExLTE1Xy0tX0ZYTUxfQmFzaWNzX19TZWMtM18uamFyIiBzaXplPSI0NzM2IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogIDwvcmVzb3VyY2VzPg0KICA8YXBwbGV0LWRlc2MgIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBtYWluLWNsYXNzPSJjb20uamF2YWZ4Lm1haW4uTm9KYXZhRlhGYWxsYmFjayIgIG5hbWU9IjIwMjEtMTEtMTUgLS0gRlhNTCBCYXNpY3MgKFNlYy0zKSIgPg0KICAgIDxwYXJhbSBuYW1lPSJyZXF1aXJlZEZYVmVyc2lvbiIgdmFsdWU9IjguMCsiLz4NCiAgPC9hcHBsZXQtZGVzYz4NCiAgPGpmeDpqYXZhZngtZGVzYyAgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIG1haW4tY2xhc3M9Im1haW5wa2cuTWFpbkFwcGxpY2F0aW9uIiAgbmFtZT0iMjAyMS0xMS0xNSAtLSBGWE1MIEJhc2ljcyAoU2VjLTMpIiAvPg0KICA8dXBkYXRlIGNoZWNrPSJhbHdheXMiLz4NCjwvam5scD4NCg=='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedmainpkg() {
+        dtjava.embed(
+            {
+                id : 'mainpkg',
+                url : '2021-11-15 -- FXML Basics (Sec-3).jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '800',
+                height : '600',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iMjAyMS0xMS0xNSAtLSBGWE1MIEJhc2ljcyAoU2VjLTMpLmpubHAiPg0KICA8aW5mb3JtYXRpb24+DQogICAgPHRpdGxlPjIwMjEtMTEtMTUgLS0gRlhNTCBCYXNpY3MgKFNlYy0zKTwvdGl0bGU+DQogICAgPHZlbmRvcj5TdWJyYXRhIEt1bWFyIERleTwvdmVuZG9yPg0KICAgIDxkZXNjcmlwdGlvbj5udWxsPC9kZXNjcmlwdGlvbj4NCiAgICA8b2ZmbGluZS1hbGxvd2VkLz4NCiAgPC9pbmZvcm1hdGlvbj4NCiAgPHJlc291cmNlcz4NCiAgICA8ajJzZSB2ZXJzaW9uPSIxLjYrIiBocmVmPSJodHRwOi8vamF2YS5zdW4uY29tL3Byb2R1Y3RzL2F1dG9kbC9qMnNlIi8+DQogICAgPGphciBocmVmPSIyMDIxLTExLTE1Xy0tX0ZYTUxfQmFzaWNzX19TZWMtM18uamFyIiBzaXplPSI0NzM2IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogIDwvcmVzb3VyY2VzPg0KICA8YXBwbGV0LWRlc2MgIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBtYWluLWNsYXNzPSJjb20uamF2YWZ4Lm1haW4uTm9KYXZhRlhGYWxsYmFjayIgIG5hbWU9IjIwMjEtMTEtMTUgLS0gRlhNTCBCYXNpY3MgKFNlYy0zKSIgPg0KICAgIDxwYXJhbSBuYW1lPSJyZXF1aXJlZEZYVmVyc2lvbiIgdmFsdWU9IjguMCsiLz4NCiAgPC9hcHBsZXQtZGVzYz4NCiAgPGpmeDpqYXZhZngtZGVzYyAgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIG1haW4tY2xhc3M9Im1haW5wa2cuTWFpbkFwcGxpY2F0aW9uIiAgbmFtZT0iMjAyMS0xMS0xNSAtLSBGWE1MIEJhc2ljcyAoU2VjLTMpIiAvPg0KICA8dXBkYXRlIGNoZWNrPSJhbHdheXMiLz4NCjwvam5scD4NCg=='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedmainpkg);
+</script>
+
+</head><body>
+<h2>Test page for <b>2021-11-15 -- FXML Basics (Sec-3)</b></h2>
+  <b>Webstart:</b> <a href='2021-11-15 -- FXML Basics (Sec-3).jnlp' onclick="return launchApplication('2021-11-15 -- FXML Basics (Sec-3).jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>

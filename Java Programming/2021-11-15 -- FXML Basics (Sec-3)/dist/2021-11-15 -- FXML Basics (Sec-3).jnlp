@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="2021-11-15 -- FXML Basics (Sec-3).jnlp">
+  <information>
+    <title>2021-11-15 -- FXML Basics (Sec-3)</title>
+    <vendor>Subrata Kumar Dey</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="2021-11-15_--_FXML_Basics__Sec-3_.jar" size="4736" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="2021-11-15 -- FXML Basics (Sec-3)" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="mainpkg.MainApplication"  name="2021-11-15 -- FXML Basics (Sec-3)" />
+  <update check="always"/>
+</jnlp>

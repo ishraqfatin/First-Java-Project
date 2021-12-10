@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+/Java Programming/NetbeansPro1/nbproject/private/
+/Java Programming/NetbeansPro1/build/
+/Java Programming/HelloFX/nbproject/private/
+/Java Programming/HelloFX/build/
