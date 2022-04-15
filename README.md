@@ -16,8 +16,8 @@
 + Adding the ability to report the number of Sales
 + Differentiate Franchises by countries
 + Adding Charts and Graphs to the UI for sales indications and projections
-#Screenshots of the individual scene
-## Login Scene
+#####Screenshots of the individual scene
+# Login Scene
 ![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/LoginScene.png)
 
 
