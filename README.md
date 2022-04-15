@@ -30,12 +30,28 @@
 ![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/TaskDelegationScene.png)
 ### Branch Directory Scene
 ![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/BranchDirectoryScene.png)
+### Farnchise Manager Dashboard
 ![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/FranchiseManagerDashboard.png)
+### Adding Branches Scene
 ![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/AddBranchScene.png)
+### Hiring Candidates Scene
 ![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/HiringScene.png)
+### Writing Report Scene
 ![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/ReportGenerationScene.png)
+### Human Resources Dashboard
 ![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/HumanResourceDashboard.png)
-![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/ShortlistingEmpScene.png , https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/ShortlistEmpScene.png)
+### Shortlisitng Candidate Scene
+![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/ShortlistEmpScene.png)
+### Query Replying Scene
+![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/QueryReplyScene.png)
+### Approving Leave Requests Scene
+![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/LeaveRequestApproveScene.png)
+### Customer Service Representative Scene
+![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/CustomerServiceRepresentativeDashboard.png)
+### Query Making Scene
+![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/MakeQueryScene.png)
+### Leave Request Scene
+![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/LeaveRequestScene.png)
 
 
 
