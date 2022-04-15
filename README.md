@@ -5,7 +5,8 @@
 + Delegating Tasks to Employees as a Branch Manager
 
 
-
+# Login Scene
+![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/LoginScene.png)
 
 
 
