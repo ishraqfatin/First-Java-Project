@@ -1,6 +1,10 @@
 # CSE213-OOP-Final-Project
++ This is my first UI based application. :)
 ## Description of the Project
 + This is a simulation of the global operations of KFC with limited functionalities which I was able to achieve within the course period.
++ As the course is entirely based on Java and JavaFX Applications, so is the project.
++ Please feel free to download the "FinalProject-" folder to check out the functionalities.
++ I have used Netbeans 8.2 IDE to compile and run.
 ### Functionalities
 + Adding Branches
 + Sending and Replying to Queries
@@ -20,6 +24,9 @@
 # Screenshots of the individual scenes
 ### Login Scene
 ![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/LoginScene.png)
+![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/BranchManagerDashboard.png)
+![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/TaskDelegationScene.png)
+![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/BranchDirectoryScene.png)
 
 
 
