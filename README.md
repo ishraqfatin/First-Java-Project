@@ -24,9 +24,18 @@
 # Screenshots of the individual scenes
 ### Login Scene
 ![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/LoginScene.png)
+### Branch Manager Dashboard
 ![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/BranchManagerDashboard.png)
+### Task Delegation Scene
 ![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/TaskDelegationScene.png)
+### Branch Directory Scene
 ![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/BranchDirectoryScene.png)
+![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/FranchiseManagerDashboard.png)
+![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/AddBranchScene.png)
+![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/HiringScene.png)
+![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/ReportGenerationScene.png)
+![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/HumanResourceDashboard.png)
+![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/ShortlistingEmpScene.png , https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/ShortlistEmpScene.png)
 
 
 
