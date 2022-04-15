@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kfcapplication.ReportController">
+   <children>
+      <TextArea fx:id="writeText" layoutX="15.0" layoutY="79.0" prefHeight="343.0" prefWidth="265.0" promptText="Write Here" />
+      <DatePicker fx:id="datePicker" layoutX="151.0" layoutY="54.0" prefHeight="25.0" prefWidth="129.0" promptText="Pick Date" />
+      <Line endX="100.0" layoutX="200.0" layoutY="399.0" startX="100.0" startY="-298.0" strokeWidth="0.5" />
+      <TextArea fx:id="previewText" editable="false" layoutX="321.0" layoutY="79.0" prefHeight="343.0" prefWidth="265.0" />
+      <Button layoutX="95.0" layoutY="441.0" mnemonicParsing="false" onAction="#generateReport" text="Generate Report" />
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backButton" text="&lt;" />
+      <Text layoutX="418.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Preview Panel" />
+      <Text fill="#1e8eff" layoutX="268.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Report">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="chooseBranchCombo" layoutX="15.0" layoutY="54.0" prefHeight="25.0" prefWidth="129.0" promptText="Choose Branch" />
+      <Button layoutX="414.0" layoutY="441.0" mnemonicParsing="false" onAction="#saveReport" text="Save Report" />
+      <Text fx:id="errorText" fill="RED" layoutX="96.0" layoutY="482.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="103.99999916553497" />
+      <Text fx:id="blueText" fill="#0088ff" layoutX="402.0" layoutY="483.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="103.99999916553497" />
+   </children>
+</AnchorPane>

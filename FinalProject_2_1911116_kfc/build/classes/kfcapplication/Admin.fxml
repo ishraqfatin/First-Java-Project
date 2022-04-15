@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="586.0" prefWidth="566.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kfcapplication.AdminController">
+   <children>
+      <TextField fx:id="getName" layoutX="210.0" layoutY="79.0" promptText="Name" />
+      <TextField fx:id="getID" layoutX="210.0" layoutY="47.0" promptText="ID" />
+      <TextField fx:id="getPassword" layoutX="209.0" layoutY="177.0" promptText="Password" />
+      <ComboBox fx:id="userCombo" layoutX="209.0" layoutY="249.0" prefWidth="150.0" promptText="User" />
+      <Button layoutX="33.0" layoutY="261.0" mnemonicParsing="false" onAction="#addUserButton" prefHeight="25.0" prefWidth="149.0" text="Add User" />
+      <TextField fx:id="getEmail" layoutX="209.0" layoutY="145.0" promptText="Email" />
+      <Label alignment="CENTER" layoutX="209.0" layoutY="14.0" prefHeight="25.0" prefWidth="150.0" text="Admin Panel" />
+      <Button layoutX="402.0" layoutY="261.0" mnemonicParsing="false" onAction="#viewUserButton" prefHeight="25.0" prefWidth="149.0" text="View Users" />
+      <TextArea fx:id="userTextArea" layoutX="33.0" layoutY="293.0" prefHeight="278.0" prefWidth="518.0" />
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backToLogin" prefHeight="25.0" prefWidth="65.0" text="Go Back" />
+      <ComboBox fx:id="branchComboBox" editable="true" layoutX="209.0" layoutY="212.0" prefWidth="150.0" promptText="Branch" />
+      <TextField fx:id="getPhone" layoutX="209.0" layoutY="112.0" promptText="Phone" />
+   </children>
+</AnchorPane>

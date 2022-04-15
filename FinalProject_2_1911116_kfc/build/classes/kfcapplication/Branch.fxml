@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kfcapplication.BranchController">
+   <children>
+      <TextField fx:id="branchPhoneText" layoutX="39.0" layoutY="265.0" promptText="Branch Phone Number" />
+      <TextField fx:id="branchNameText" layoutX="39.0" layoutY="161.0" promptText="Branch Name" />
+      <TextField fx:id="branchAddressText" layoutX="39.0" layoutY="214.0" promptText="Branch Address" />
+      <TextField fx:id="branchEmailText" layoutX="39.0" layoutY="321.0" promptText="Branch Email" />
+      <TableView fx:id="branchTable" layoutX="213.0" layoutY="95.0" prefHeight="397.0" prefWidth="571.0">
+        <columns>
+          <TableColumn fx:id="branchNameColumn" prefWidth="120.0" text="Branch Name" />
+          <TableColumn fx:id="addressColumn" prefWidth="160.0" text="Address" />
+            <TableColumn fx:id="emailColumn" prefWidth="135.0" text="Email" />
+            <TableColumn fx:id="phoneNumberColumn" minWidth="0.0" prefWidth="153.0" text="Phone Number" />
+        </columns>
+      </TableView>
+      <Button layoutX="52.0" layoutY="381.0" mnemonicParsing="false" onAction="#saveBranchButton" prefHeight="25.0" prefWidth="124.0" text="Save Branch" />
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backButton" text="&lt;" />
+      <Label layoutX="52.0" layoutY="105.0" text="Add a Branch">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="outputText" layoutX="660.0" layoutY="19.0" prefHeight="25.0" prefWidth="124.0" text="Loaded Successfully" />
+      <Label layoutX="213.0" layoutY="64.0" prefHeight="9.0" prefWidth="171.0" text="Branch Details:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

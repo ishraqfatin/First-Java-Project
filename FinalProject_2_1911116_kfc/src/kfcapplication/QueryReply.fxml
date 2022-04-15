@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kfcapplication.QueryReplyController">
+   <children>
+      <Button layoutX="24.0" layoutY="24.0" mnemonicParsing="false" onAction="#backButton" text="&lt;" />
+      <Text fill="#00afff" layoutX="380.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Query Inbox">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="queryText" editable="false" layoutX="26.0" layoutY="289.0" prefHeight="200.0" prefWidth="393.0" promptText="Select a query from the table to view here." />
+      <TableView fx:id="tableView" layoutX="26.0" layoutY="72.0" onMouseClicked="#selectQuery" prefHeight="200.0" prefWidth="393.0">
+        <columns>
+          <TableColumn fx:id="idCol" prefWidth="49.0" text="ID" />
+          <TableColumn fx:id="depCol" prefWidth="124.0" text="Dep." />
+            <TableColumn fx:id="subCol" prefWidth="106.0" text="Subject" />
+            <TableColumn fx:id="dateCol" prefWidth="113.0" text="Date" />
+        </columns>
+      </TableView>
+      <TextArea fx:id="replyText" layoutX="437.0" layoutY="72.0" prefHeight="314.0" prefWidth="349.0" promptText="Write your reply." />
+      <Button layoutX="558.0" layoutY="425.0" mnemonicParsing="false" onAction="#replyButtonClick" prefHeight="25.0" prefWidth="107.0" text="Send Reply" />
+      <DatePicker fx:id="datePicker" layoutX="651.0" layoutY="72.0" prefHeight="25.0" prefWidth="135.0" />
+      <Label fx:id="label" layoutX="513.0" layoutY="469.0" prefHeight="17.0" prefWidth="197.0" />
+   </children>
+</AnchorPane>
