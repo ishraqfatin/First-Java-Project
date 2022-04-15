@@ -18,7 +18,7 @@
 + Adding Charts and Graphs to the UI for sales indications and projections
 
 # Screenshots of the individual scene
-# Login Scene
+### Login Scene
 ![alt text](https://github.com/ishraqfatin/CSE213-OOP/blob/main/ProjectScreenshots/LoginScene.png)
 
 
