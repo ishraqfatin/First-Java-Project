@@ -1,6 +1,6 @@
 # CSE213-OOP-Final-Project
 + This is my first UI based application. :)
-+ + Please feel free to download the "FinalProject-" folder to check out the functionalities.
++ Please feel free to download the "FinalProject-" folder to check out the functionalities.
 + I have used Netbeans 8.2 IDE to compile and run.
 ## Description of the Project
 + This is a simulation of the global operations of KFC with limited functionalities which I was able to achieve within the course period.
