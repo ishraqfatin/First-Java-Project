@@ -1,10 +1,12 @@
 # CSE213-OOP-Final-Project
 + This is my first UI based application. :)
++ + Please feel free to download the "FinalProject-" folder to check out the functionalities.
++ I have used Netbeans 8.2 IDE to compile and run.
 ## Description of the Project
 + This is a simulation of the global operations of KFC with limited functionalities which I was able to achieve within the course period.
 + As the course is entirely based on Java and JavaFX Applications, so is the project.
-+ Please feel free to download the "FinalProject-" folder to check out the functionalities.
-+ I have used Netbeans 8.2 IDE to compile and run.
++ Check the ![LoginCredentials](https://github.com/ishraqfatin/CSE213-OOP/blob/main/LoginCredentials.txt) file for User ID and Passwords
+
 ### Functionalities
 + Adding Branches
 + Sending and Replying to Queries
@@ -58,6 +60,6 @@
 
 
 
-## Download Link for Netbeans 8.2 and Java 8 https://netbeans-ide.informer.com/8.2/
+## Download Link for ![Netbeans 8.2 and Java 8](https://netbeans-ide.informer.com/8.2/) 
 
 **This Project requires "JavaFX runtime of version 8.0.111" to work properly.**
