@@ -58,23 +58,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Download Link for Netbeans 8.2 and Java 8 https://netbeans-ide.informer.com/8.2/
 
 **This Project requires "JavaFX runtime of version 8.0.111" to work properly.**
